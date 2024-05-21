@@ -71,7 +71,7 @@ const Overview = () => {
         </h2>
       </div>
 
-      <div className="w-full md:w-1/2 p-4 px-3 py-4 mt-10 md:ml-10 pt-10 border border-black m-4">
+      <div className="w-full md:w-1/2 p-4 px-3 py-4 mt-10 md:ml-10 pt-10 border m-4">
         <div className="flex flex-col sm:flex-row items-center sm:items-start p-3 ">
           <div className="w-full md:1/2 ">
             <img
@@ -96,7 +96,7 @@ const Overview = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 p-4 px-6 py-4 mt-10 md:ml-10 pt-10 border border-black m-4">
+      <div className="w-full md:w-1/2 p-4 px-6 py-4 mt-10 md:ml-10 pt-10 border m-4">
         <div className="flex flex-col sm:flex-row items-center sm:items-start p-3">
           <div className="w-full md:1/2">
             <img
