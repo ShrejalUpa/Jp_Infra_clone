@@ -109,7 +109,7 @@ export const smDropdwon = [
     {
         id:3,
         title:"CONTACT US",
-        path:'/',
+        path:'/contact',
         cname:"nav-item",
     },
     {
