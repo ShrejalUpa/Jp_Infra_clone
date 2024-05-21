@@ -24,6 +24,10 @@ const Carousel = () => {
         loop
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         breakpoints={{
+          360: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
             412: {
                 slidesPerView: 1,
                 spaceBetween: 10,
@@ -37,7 +41,7 @@ const Carousel = () => {
               spaceBetween: 10,
             },
             1024: {
-              slidesPerView: 5,
+              slidesPerView: 3,
               spaceBetween: 10,
             },
           }}

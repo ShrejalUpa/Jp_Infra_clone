@@ -8,7 +8,7 @@ const Media = () => {
   return (
     <Layout>
        <div>
-        <div className='relative pb-[2rem]'>
+        <div className='relative pb-[3rem]'>
           <img src='https://static.vecteezy.com/system/resources/previews/000/830/014/large_2x/futuristic-banner-background-with-wireframe-terrain-vector.jpg' alt='banner' className='lg:h-[80vh] md:h-[60vh]  h-[20vh] w-full' />
         </div>
        <div className='lg:px-[9rem] md:px-[9rem] absolute md:top-[10rem] lg:top-[6rem]'>
