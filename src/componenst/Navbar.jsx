@@ -61,7 +61,7 @@ const Navbar = () => {
                         {
                      lgdropdown &&(
                   
-                    <div className='w-full bg-white pr-[6rem] h-[310px] shadow-md absolute z-10 top-10'>
+                    <div className='w-full bg-white pr-[6rem] h-[320px] shadow-md absolute z-10 top-10'>
                     
                     {
                       LgDropdwon.map((item)=>{
