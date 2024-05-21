@@ -90,7 +90,7 @@ const Navbar = () => {
     <div>
     {
         open && (
-            <div className={`fixed top-[6rem] z-10 left-0 w-full h-[70vh] transition-transform transform ${show ? 'translate-y-0' : '-translate-y-full'} bg-white text-black p-4`}>
+            <div className={`fixed top-[6rem] pt-[3rem] z-10 left-0 w-full h-[75vh] transition-transform transform ${show ? 'translate-y-0' : '-translate-y-full'} bg-white text-black p-4`}>
                {
                 smDropdwon.map((item)=>{
                   return(
