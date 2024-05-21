@@ -13,7 +13,7 @@ const Media = () => {
           <img src={banner} alt='banner' className='lg:h-[40vh] md:h-[30vh]  h-[20vh] w-full' />
         </div>
        <div className='lg:px-[10rem] md:px-[11rem] lg:absolute md:top-[1rem] lg:top-[6rem]'>
-       <div className='bg-white text-black shadow-md lg:h-[40vh] md:h-[45vh] text-center py-[2rem] px-[4rem]'>
+       <div className='bg-white text-black lg:shadow-md md:shadow-md lg:h-[40vh] md:h-[45vh] text-center py-[2rem] px-[4rem]'>
           <p className='text-sm'>At JP Infra, we believe in showcasing our work as well as the fun we have. Here are the highlights of our project launches, the thoughts and opinions of the brains at JP Infra, how the outside world sees us and what we, as a team, are actually like – children at heart. Northern Light, our quarterly newsletter, talks extensively on how JP Infra has largely contributed to the growth and rise of Mira Road.</p>
         </div>
        </div>
