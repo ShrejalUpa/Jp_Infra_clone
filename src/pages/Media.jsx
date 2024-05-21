@@ -19,7 +19,7 @@ const Media = () => {
        </div>
       </div>
 
-        <div className='pt-[5rem] lg:pt-0'>
+        <div className='pt-[0.5rem] lg:pt-0'>
           <div className='flex justify-center items-center pt-[3rem]'>
           <div class="border-b-[3px] border-gray-400 my-4 w-[10%]"></div>
           </div>

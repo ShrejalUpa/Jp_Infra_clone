@@ -19,7 +19,7 @@ const Blogs = () => {
        </div>
       </div>
 
-      <div className='grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 lg:px-[4.5rem] md:px-[4.5rem] px-[2rem] lg:pt-[8rem] md:pt-[8rem] pt-[8rem] gap-8'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 lg:px-[4.5rem] md:px-[4.5rem] px-[2rem] lg:pt-[8rem] md:pt-[8rem] pt-[1rem] gap-8'>
         {
           blogcard.map((item)=>{
             return(
