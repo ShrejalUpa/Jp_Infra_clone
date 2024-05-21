@@ -32,7 +32,7 @@ function App() {
       element:<PushingBound />,
       children: [
         {
-          path: "northbarcelona",
+          path: "",
           element:<Northbarcelona />
         },
         {

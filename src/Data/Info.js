@@ -41,6 +41,11 @@ import art5 from '../Images/overview/a5.png'
 import art6 from '../Images/overview/a6.png'
 import art7 from '../Images/overview/a7.png'
 import art8 from '../Images/overview/a8.png'
+
+import b1 from '../Images/pushingbound/b1.jpg'
+import b2 from '../Images/pushingbound/b2.jpg'
+import b3 from '../Images/pushingbound/b3.jpg'
+import b4 from '../Images/pushingbound/b4.jpg'
 //navbar 
 export const LgDropdwon =[
     {
@@ -526,6 +531,33 @@ export const Articles =[
 
 export const achievements =[
     art1,art2,art3,art4,art5,art6,art7,art8
+]
+
+export const pushingboundCard =[
+    {
+        id:1,
+        img:b1,
+        title:'School For Labourers',
+        des:'We believe that the people who are working hard to transform our thoughts into reality are our responsibility.Every parent dreams of providing the best to their children we strive to make our laborers live a little easier by providing on site schools so that they can educate their children easily..'
+    },
+    {
+        id:2,
+        img:b2,
+        title:'Mira Bhayandar Rising',
+        des:'A JP Infra initiative, Mira Bhandar Rising has been conceptualized with the goal of building a community-based lifestyle in Mira Road for people to celebrate their neighborhood with pride. The idea behind the initiative is to allow residents of Mira Road and Bhayndar to engage in community event that help build communities spirit and a feeling of togetherness. To be a part of the vibrant Mira behind the rising click here:https://www.facebook.com/MiraRoadRising/',
+    },
+    {
+        id:3,
+        img:b3,
+        title:'Ladies Swimming pool',
+        des:'We understand the concerns our residents might face and thus provide for maximum safety as well a separate swimming pool for ladies.these fantastic women can now enjoy their much needed me time without a care in the world.',
+    },
+    {
+        id:4,
+        img:b4,
+        title:'Jp Care',
+        des:'Life can take unexpected turns and we at JP Infra are cognizant of that Due to the pandemic last year in twenty twenty,We introduce a unique program for those who purchased J P infra homes during lockdown and paid their E M Is for three month in case of unfortunate job loss.Because For us Care goes beyond the call of duty.,',
+    }
 ]
 
 
