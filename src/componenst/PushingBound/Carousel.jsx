@@ -50,7 +50,7 @@ const Carousel = () => {
                         <div className='lg:w-[50%] md:w-[50%]'>
                             <img src={item.img} alt='img'/>
                         </div>
-                        <div className='lg:w-[50%] md:w-[50%] px-[1rem]'>
+                        <div className='lg:w-[50%] md:w-[50%] p-[2rem]'>
                             <h1 className='text-xl text-[#2d67a9] py-[1rem] font-bold'>{item.title}</h1>
                             <p>{item.des}</p>
                         </div>

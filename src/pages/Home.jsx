@@ -103,33 +103,7 @@ const Home = () => {
           </h1>
         </div>
       </div>
-      <div className="pb-[40rem]">
-        <img
-          src={homeimg}
-          alt="North"
-          className="absolute contrast-50"
-        />
-        <div className="flex flex-col w-full lg:w-[40%] lg:float-right p-10">
-          <h1 className="text-right text-white text-3xl lg:text-4xl relative font-bold">
-            North - A Lifestyle
-          </h1>
-          <h2 className="text-right text-white text-xl relative py-4">
-            Transforming Mira Road
-          </h2>
-          <p className="text-right text-white text-lg relative">
-            Due to the growing need for individual housing, North Mumbai has
-            gone through rapid development over the last decade. Community
-            living with access to world-class amenities have become the norm in
-            North Mumbai housing projects. The aspiring Mumbaikar welcomes the
-            sizeable emergence of affordable housing with international
-            standards of living.
-          </p>
-          <span className="relative mt-2 lg:mt-40 lg:w-[45%] flex items-center  text-lg  border-2 border-current font-bold  py-2 px-5 text-white">
-            Know More
-            <CgArrowLongRight className="w-4 ml-4 text-white" />
-          </span>
-        </div>
-      </div>
+      
     </Layout>
   );
 };
