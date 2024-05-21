@@ -19,6 +19,10 @@ const Ecarousel = () => {
         loop
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         breakpoints={{
+          360: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
             412: {
                 slidesPerView: 1,
                 spaceBetween: 10,

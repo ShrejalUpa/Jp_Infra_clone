@@ -61,7 +61,7 @@ const Media = () => {
       </div>
 
       <div>
-        <div className='w-full lg:h-[70vh] text-center py-[3rem]'>
+        <div className='w-full text-center py-[3rem]'>
             <h1 className='text-4xl text-[#2d67a9] font-bold my-1'>Looking for a property,</h1>
             <h1 className='text-4xl text-[#2d67a9] font-bold my-1'>but not sure where to start?</h1>
             <p className='my-[1rem]'>Let us help. Speak to our property expert today.</p>

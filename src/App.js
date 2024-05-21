@@ -11,6 +11,11 @@ import Nricorner from './pages/Nricorner';
 import Overview from './pages/Overview';
 import RedEState from './pages/RedEState';
 import Workus from './pages/Workus';
+import Northbarcelona from './componenst/PushingBound/Northbarcelona';
+import Unitytowers from './componenst/PushingBound/Unitytowers';
+import Solar from './componenst/PushingBound/Solar';
+import Railwater from './componenst/PushingBound/Railwater';
+import Wastemanagement from './componenst/PushingBound/Wastemanagement';
 
 function App() {
   const router = createBrowserRouter([
@@ -27,8 +32,24 @@ function App() {
       element:<PushingBound />,
       children: [
         {
-          path: "",
-          
+          path: "northbarcelona",
+          element:<Northbarcelona />
+        },
+        {
+          path: "unitytowers",
+          element:<Unitytowers />
+        },
+        {
+          path: "solar",
+          element:<Solar />
+        },
+        {
+          path: "railwater",
+          element:<Railwater />
+        },
+        {
+          path: "wastemanagement",
+          element:<Wastemanagement />
         },
       ]
     },
