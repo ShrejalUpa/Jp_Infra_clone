@@ -3,21 +3,22 @@ import Layout from '../componenst/Layout'
 import Ecarousel from '../componenst/Media/Ecarousel'
 import NewCarousel from '../componenst/Media/NewCarousel'
 import ArticlesCarousel from '../componenst/Media/ArticlesCarousel'
+import banner from '../Images/blogs/blog_banner.jpg'
 
 const Media = () => {
   return (
     <Layout>
-       <div>
-        <div className='relative pb-[3rem]'>
-          <img src='https://static.vecteezy.com/system/resources/previews/000/830/014/large_2x/futuristic-banner-background-with-wireframe-terrain-vector.jpg' alt='banner' className='lg:h-[80vh] md:h-[60vh]  h-[20vh] w-full' />
+        <div className='lg:pb-0 md:pb-0'>
+        <div className='lg:relative'>
+          <img src={banner} alt='banner' className='lg:h-[40vh] md:h-[30vh]  h-[20vh] w-full' />
         </div>
-       <div className='lg:px-[9rem] md:px-[9rem] absolute md:top-[10rem] lg:top-[6rem]'>
-       <div className='bg-white text-black shadow-md lg:h-[40vh] md:h-[40vh] text-center py-[2rem] px-[4rem]'>
-
+       <div className='lg:px-[10rem] md:px-[11rem] lg:absolute md:top-[1rem] lg:top-[6rem]'>
+       <div className='bg-white text-black shadow-md lg:h-[40vh] md:h-[45vh] text-center py-[2rem] px-[4rem]'>
           <p className='text-sm'>At JP Infra, we believe in showcasing our work as well as the fun we have. Here are the highlights of our project launches, the thoughts and opinions of the brains at JP Infra, how the outside world sees us and what we, as a team, are actually like – children at heart. Northern Light, our quarterly newsletter, talks extensively on how JP Infra has largely contributed to the growth and rise of Mira Road.</p>
         </div>
        </div>
       </div>
+
         <div className='pt-[5rem] lg:pt-0'>
           <div className='flex justify-center items-center pt-[3rem]'>
           <div class="border-b-[3px] border-gray-400 my-4 w-[10%]"></div>

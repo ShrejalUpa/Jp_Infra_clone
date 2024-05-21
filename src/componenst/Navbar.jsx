@@ -31,7 +31,7 @@ const Navbar = () => {
         }
   return (
     <>
-    <div className={`fixed shadow-lg flex justify-around items-center bg-white text-black h-[15vh] z-20 top-0 left-0 w-full transition-transform transform ${show ? 'translate-y-0' : '-translate-y-full'} bg-white text-black p-4`} >
+    <div className={`fixed shadow-md flex justify-around items-center bg-white text-black h-[15vh] z-20 top-0 left-0 w-full transition-transform transform ${show ? 'translate-y-0' : '-translate-y-full'} bg-white text-black p-4`} >
         <div className=''> 
             <img src={logo} alt='logo' className='w-[70%] cursor-pointer' onClick={link} />
         </div>

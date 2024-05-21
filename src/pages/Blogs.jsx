@@ -7,11 +7,11 @@ const Blogs = () => {
   return (
     <Layout>
     <div>
-      <div>
-        <div className='relative'>
+      <div className='lg:pb-0 md:pb-0'>
+        <div className='lg:relative md:relative'>
           <img src={banner} alt='banner' className='lg:h-[40vh] md:h-[30vh]  h-[20vh] w-full' />
         </div>
-       <div className='lg:px-[10rem] md:px-[11rem] absolute md:top-[1rem] lg:top-[6rem]'>
+       <div className='lg:px-[10rem] md:px-[11rem] lg:absolute md:absolute md:top-[1rem] lg:top-[6rem]'>
        <div className='bg-white text-black shadow-md lg:h-[40vh] md:h-[45vh] text-center py-[2rem] px-[4rem]'>
           <h1 className='text-3xl font-bold text-[#2d67a9]'>Blogs</h1>
           <p className='text-sm'>We, at JP Infra, believe that building a home is not just about investing in property. Here we not only offer you various reasons to invest in property in Mumbai or why Mira Road is the best location for property investment in Mumbai right now, but also a list of innovative ways and unique quirks to transforming your house into a vibrant, lovely home.</p>
